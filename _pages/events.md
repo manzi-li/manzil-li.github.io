@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /awardsandservices/
+permalink: /events/
 title: Events
 description: listed below
 nav: true

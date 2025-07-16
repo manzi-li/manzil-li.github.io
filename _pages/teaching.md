@@ -13,35 +13,26 @@ For now, this page is assumed to be a static description of your courses. You ca
 Organize your courses by years, topics, or universities, however you like!
 
 
-<!-- pages/projects.md -->
+<!-- _pages/teaching.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
+{% assign sorted_teaching = site.teaching | sort: "importance" %}
+<!-- Generate cards for each course -->
+{% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+    {% for course in sorted_teaching %}
+      {% include projects_horizontal.liquid project=course %}
     {% endfor %}
     </div>
   </div>
-  {% else %}
+{% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for course in sorted_teaching %}
+      {% include projects.liquid project=course %}
     {% endfor %}
   </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
+{% endif %}
+</div>
 
 <!-- Display projects without categories -->
 
