@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: CEE 552: Travel Behavior Analysis and Forecasting
