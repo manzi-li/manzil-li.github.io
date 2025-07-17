@@ -13,23 +13,24 @@ For now, this page is assumed to be a static description of your courses. You ca
 Organize your courses by years, topics, or universities, however you like!
 
 <!--
-This version includes more advanced debugging.
+This version uses direct HTML to display the cards, bypassing the include template to fix the display issue.
 -->
 
 <div class="projects">
 {%- assign sorted_teaching = site.teaching | sort: "importance" -%}
-
-<!-- DEBUGGING: This will print all data for the first course found. -->
-
-<strong>Full Course Data:</strong>
-
-<pre><code>{{ sorted_teaching.first | inspect }}</code></pre>
-
-<!-- Generate cards for each course -->
-
 <div class="row row-cols-1 row-cols-md-3">
 {%- for course in sorted_teaching -%}
-{% include projects.liquid project=course %}
+<div class="col">
+<div class="card h-100">
+{%- if course.img %}
+<img src="{{ course.img | prepend: 'assets/img/' | relative_url }}" class="card-img-top" alt="{{ course.title }}">
+{%- endif %}
+<div class="card-body">
+<h5 class="card-title">{{ course.title }}</h5>
+<p class="card-text">{{ course.description }}</p>
+</div>
+</div>
+</div>
 {%- endfor -%}
 </div>
 </div>
