@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /events/
-title: Events
+title: Talks
 description: listed below
 nav: true
 nav_order: 6
