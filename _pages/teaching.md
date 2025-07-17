@@ -12,35 +12,24 @@ For now, this page is assumed to be a static description of your courses. You ca
 
 Organize your courses by years, topics, or universities, however you like!
 
-
 <!--
-This version includes debugging lines to help diagnose the issue.
+This version includes more advanced debugging.
 -->
-
-<!-- DEBUGGING STEP 1: This will print the total number of files found in your _teaching folder. -->
-
-<p><strong>Debug Info:</strong> Number of teaching items found by Jekyll: <strong>{{ site.teaching.size }}</strong></p>
 
 <div class="projects">
 {%- assign sorted_teaching = site.teaching | sort: "importance" -%}
+
+<!-- DEBUGGING: This will print all data for the first course found. -->
+
+<strong>Full Course Data:</strong>
+
+<pre><code>{{ sorted_teaching.first | inspect }}</code></pre>
+
 <!-- Generate cards for each course -->
-{%- if page.horizontal -%}
-<div class="container">
-<div class="row row-cols-1 row-cols-md-2">
-{%- for course in sorted_teaching -%}
-<!-- DEBUGGING STEP 2: This will print the title of each course it tries to display. -->
-<p><em>Processing course: {{ course.title }}</em></p>
-{% include projects_horizontal.liquid project=course %}
-{%- endfor -%}
-</div>
-</div>
-{%- else -%}
+
 <div class="row row-cols-1 row-cols-md-3">
 {%- for course in sorted_teaching -%}
-<!-- DEBUGGING STEP 2: This will print the title of each course it tries to display. -->
-<p><em>Processing course: {{ course.title }}</em></p>
 {% include projects.liquid project=course %}
 {%- endfor -%}
 </div>
-{%- endif -%}
 </div>
