@@ -9,13 +9,13 @@ nav_order: 5
 
 Organize your courses by years, topics, or universities, however you like!
 
-## {{Awards}}
+## Awards
 
 
-## {{Conference services}}
+## Conference services
 
 
-## {{Refree services}}
+## Refree services
 - Transportation Science
 - Transportation Research Part A: Policy and Practice
 - Transportation Research Part C: Emerging Technologies
