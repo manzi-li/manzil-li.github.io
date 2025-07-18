@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: CEE 552: Travel behavior analysis and forecasting
+description: University of Michigan CEE graduate course, taught as sole instructor in 2024 and 2025. Teaching evaluation: 4.97/5.0.
 img: assets/img/1.jpg
-importance: 3
-category: fun
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.
