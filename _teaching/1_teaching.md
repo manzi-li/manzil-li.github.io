@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CEE 552: Travel behavior analysis and forecasting
+title: CEE 552: Travel Behavior Analysis and Forecasting
 description: University of Michigan CEE graduate course, taught as sole instructor in 2024 and 2025. Teaching evaluation: 4.97/5.0.
 img: assets/img/1.jpg
 importance: 1
