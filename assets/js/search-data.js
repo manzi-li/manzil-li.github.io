@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/teaching/";
           },
         },{id: "nav-awards-and-services",
-          title: "awards and services",
+          title: "Awards and Services",
           description: "listed below",
           section: "Navigation",
           handler: () => {
@@ -461,14 +461,14 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teaching-",
-          title: '',
-          description: "",
+            },},{id: "teaching-cee-552-travel-behavior-analysis-and-forecasting",
+          title: 'CEE 552: Travel Behavior Analysis and Forecasting',
+          description: "University of Michigan CEE graduate course, taught as sole instructor in 2024 and 2025. Teaching evaluation: 4.97/5.0.",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/1_teaching/";
-            },},{id: "teaching-",
-          title: '',
-          description: "",
+            },},{id: "teaching-cee-375-sensors-signals-and-circuits",
+          title: 'CEE 375: Sensors, Signals and Circuits',
+          description: "University of Michigan CEE undergraduate course, taught as graduate student instructor in 2024.",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/2_teaching/";
             },},{
