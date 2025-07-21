@@ -2,7 +2,7 @@
 layout: page
 permalink: /awardsandservices/
 title: Awards and Services
-description: listed below
+description:
 nav: true
 nav_order: 5
 ---
