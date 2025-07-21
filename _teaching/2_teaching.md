@@ -2,7 +2,7 @@
 layout: page
 title: "CEE 375: Sensors, Signals and Circuits"
 description: "University of Michigan CEE undergraduate course, taught as graduate student instructor in 2024."
-img: assets/img/375.jpeg
+img: assets/img/375_pic.jpeg
 importance: 2
 category: course
 ---
