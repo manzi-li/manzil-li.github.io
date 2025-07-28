@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: tianmliu_photo.jpg
+  image: tianmliu_photo.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>1233 G.G.Brown Laboratory</p>
