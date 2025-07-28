@@ -6,8 +6,8 @@ subtitle:
 
 profile:
   align: right
-  #image: prof_pic.jpg
-  #image_circular: false # crops the image to make it circular
+  image: tianmliu_photo.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>1233 G.G.Brown Laboratory</p>
     <p>University of Michigan</p>
