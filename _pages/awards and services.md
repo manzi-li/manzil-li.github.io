@@ -26,7 +26,7 @@ nav_order: 5
 - University of Michigan Next Generation Transportation Seminar head student coordinator, 2023
 
 
-## Refree services
+## Referee services
 - Transportation Science
 - Transportation Research Part A: Policy and Practice
 - Transportation Research Part C: Emerging Technologies
