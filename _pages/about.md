@@ -30,7 +30,7 @@ latest_posts:
 I am a Ph.D. student advised by Dr. Yafeng Yin in the Civil and Enviornmental Enginnering Department at University of Michigan, majoring in transportation systems engineering. I am expected to obtain a Ph.D. degree in transportation engineering in Fall 2025, and have obtained my B.S. degree in control science and engineering from Tsinghua University in 2020.
 
 My research operates at the intersection of behavioral science, artificial intelligence, and network theory to craft next-generation models and management strategies for intelligent transportation systems. Methodologically, my research integrates behavior economics, statistical learning, network modeling, queueing theory, and generative artificial intelligence. Currently, my research work features:
-- LLM-powered digital twins of transportation systems
+- Agentic-LLM-powered models and simulations of transportation systems
 - Multimodal data fusion and high-fieldity behavior modeling
 - Behavior-informed operations management of mobility systems
 
