@@ -405,13 +405,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-give-a-talk-at-mit-lids-on-my-agentic-llm-based-travel-demand-modeling-research",
-          title: 'I give a talk at MIT LIDs on my agentic-LLM-based travel demand modeling...',
-          description: "",
-          section: "News",},{id: "news-i-give-a-talk-at-2025-modeling-mobility-conference-on-integrating-activity-based-transportation-models-with-large-language-model-agents",
-          title: 'I give a talk at 2025 Modeling Mobility conference on integrating activity-based transportation...',
-          description: "",
-          section: "News",},{id: "news-excited-to-share-all-of-my-4-papers-2-first-author-2-corresponding-author-have-been-accepted-by-trb-looking-forward-to-presenting-them-at-dc",
+            },},{id: "news-excited-to-share-all-of-my-4-papers-2-first-author-2-corresponding-author-have-been-accepted-by-trb-looking-forward-to-presenting-them-at-dc",
           title: 'Excited to share all of my 4 papers (2 first author, 2 corresponding...',
           description: "",
           section: "News",},{id: "projects-project-1",
